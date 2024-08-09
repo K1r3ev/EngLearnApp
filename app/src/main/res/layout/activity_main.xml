@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#0066FF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="193dp"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="77dp"
+        android:contentDescription="@string/title"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:shadowColor="@color/grey_font"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="@string/title"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvMotivate"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginBottom="525dp"
+        android:fontFamily="@font/press_start_2p"
+        android:textColor="@color/yellow_text"
+        android:text="Зачем сюда вообще люди заходят"
+        android:textSize="12dp"
+
+
+
+    >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="233dp"
+        android:layout_marginHorizontal="77dp"
+        android:layout_marginTop="352dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/btnLearn"
+            android:layout_width="209dp"
+            android:layout_height="64dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/Start"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="12dp">
+        </Button>
+        <Button
+            android:id="@+id/btnTrain"
+            android:layout_width="209dp"
+            android:layout_height="64dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/Trainer"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="12dp">
+        </Button>
+        <Button
+            android:id="@+id/btnStory"
+            android:layout_width="209dp"
+            android:layout_height="64dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/Story"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="12dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

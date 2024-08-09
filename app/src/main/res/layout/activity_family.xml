@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0066FF"
+    tools:context=".ClassroomActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="336dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/shape_round"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:text="FAMILY"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="324dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:text="Words to learn"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ivCard"
+        android:layout_width="280dp"
+        android:layout_height="308dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/family"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/ivCardClear"
+        android:layout_width="280dp"
+        android:layout_height="308dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/clear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:visibility="gone">
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/ivRemind"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="168dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:text="Ластик, стерка"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvWord"
+        android:layout_width="321dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:text="FAMILY"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCard" />
+
+    <Button
+        android:id="@+id/btnUp"
+        android:layout_width="106dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="128dp"
+        android:backgroundTint="#FFF500"
+        android:fontFamily="@font/press_start_2p"
+        android:text="UP"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWord" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

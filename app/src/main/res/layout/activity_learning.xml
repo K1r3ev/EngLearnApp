@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0066FF"
+    tools:context=".LearningActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="311dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/shape_round_various"
+        android:gravity="left"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvProfile1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="168dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/press_start_2p"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textAllCaps="true">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="195dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:background="@drawable/shape_round">
+
+        
+        <TextView
+            android:layout_width="195dp"
+            android:layout_height="21dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/press_start_2p"
+            android:textSize="12dp"
+            android:text="Select Level"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp">
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="297dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/shape_round"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="24dp"
+            />
+
+        <Button
+            android:id="@+id/btnBegin"
+            android:layout_width="283dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#0066FF"
+            android:fontFamily="@font/press_start_2p"
+            android:text="@string/Beginner"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="297dp"
+        android:layout_height="124dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shape_round"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="24dp"/>
+
+        <Button
+            android:id="@+id/btnInter"
+            android:layout_width="283dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#0066FF"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Intermediate"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="297dp"
+        android:layout_height="124dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shape_round"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="24dp"/>
+
+        <Button
+            android:id="@+id/btnAdvan"
+            android:layout_width="283dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#0066FF"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Advanced"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

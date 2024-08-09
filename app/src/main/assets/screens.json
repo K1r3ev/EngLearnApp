@@ -1,0 +1,392 @@
+[
+  {
+    "id":"0",
+    "image": "",
+    "message": "",
+    "choices": [
+      {
+        "text": "",
+        "nextIndex": "1"
+      }
+    ]
+  },
+  {
+    "id":"1",
+    "image": "eva",
+    "message": "Hi, welcome to my tavern, I am Sally, I'm elf ",
+    "choices": [
+      {
+        "text": "Are u ELF?!?!?!??!",
+        "nextIndex": "2"
+      },
+      {
+        "text": "Where I am?",
+        "nextIndex": "3"
+      },
+      {
+        "text": "'RUN'",
+        "nextIndex": "8"
+      }
+    ]
+  },
+  {
+    "id":"2",
+    "image": "eva",
+    "message": "Non-standard reaction, I thought everyone knew that I was an elf",
+    "choices": [
+      {
+        "text": "I thought elves didn't exist",
+        "nextIndex": "4"
+      },
+      {
+        "text": "I'm just kidding",
+        "nextIndex": "5"
+      }
+    ]},
+  {
+    "id":"3",
+    "image": "eva",
+    "message": "I knew that, u are stranger",
+    "choices": [
+      {
+        "text": "What?",
+        "nextIndex": "4"
+      },
+      {
+        "text": "Yup, and so in my world elves didn't exist??",
+        "nextIndex": "8"
+      }
+    ]
+  },
+  {
+    "id":"4",
+    "image": "eva",
+    "message": "Do not play with me kid. I don't like strangers, everyone knows that elves exist",
+    "choices": [
+      {
+        "text": "I'm kidding ma'am",
+        "nextIndex": "5"
+      },
+      {
+        "text": "And what can u do to me?",
+        "nextIndex": "8"
+      }
+    ]
+  },
+
+  {
+    "id":"5",
+    "image": "eva",
+    "message": "Shhh, okay, sorry about that. Last night my fairy was stolen. Although from the very beginning I was worried that I didn’t know this person. And it played a bad joke on me",
+    "choices": [
+      {
+        "text": "I think I can help you",
+        "nextIndex": "6"
+      },
+      {
+        "text": "I don't care if you threatened me here",
+        "nextIndex": "8"
+      }
+    ]
+  },
+  {
+    "id":"6",
+    "image": "eva",
+    "message": "Thank you, thank you,thank you.If you can help me I will become your friend.I think the fairy was carried away into the dark forest.So you don't get lost if you do not GO FORWARD .",
+    "choices": [
+      {
+        "text": "Yes, i will help you (Friendship +)",
+        "nextIndex": "7"
+      },
+      {
+        "text": "No",
+        "nextIndex": ""
+      }
+    ]
+  },
+  {
+    "id":"7",
+    "image": "bus",
+    "message": "Now our hero goes on a search, not knowing where to go to find the fairy. After a long time, the hero arrived at a dark forest and decided to walk through it",
+    "choices": [
+      {
+        "text": "Here we go again",
+        "nextIndex": "9"
+      }
+    ]
+  },
+  {
+    "id":"8",
+    "image": "deatht",
+    "message": "You dead",
+    "choices": [
+      {
+        "text": "I thought i can....",
+        "nextIndex": "-1"
+      }
+    ]
+  },
+  {
+    "id":"9",
+    "image": "forest",
+    "message": "The hero begins to get nervous. He feels someone's very strong attention",
+    "choices": [
+      {
+        "text": "Go forward",
+        "nextIndex": "10"
+      },
+      {
+        "text": "Turn left",
+        "nextIndex": "11"
+      }
+    ]
+  },
+  {
+    "id":"10",
+    "image": "forest",
+    "message": "...",
+    "choices": [
+      {
+        "text": "Go forward",
+        "nextIndex": "11"
+      },
+      {
+        "text": "Turn left",
+        "nextIndex": "11"
+      }
+    ]
+  },
+  {
+    "id":"11",
+    "image": "forest",
+    "message": "...",
+    "choices": [
+      {
+        "text": "Go forward",
+        "nextIndex": "12"
+      },
+      {
+        "text": "Turn left",
+        "nextIndex": "12"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "image": "forest",
+    "message": "...",
+    "choices": [
+      {
+        "text": "Go forward",
+        "nextIndex": "13"
+      },
+      {
+        "text": "Turn left",
+        "nextIndex": "14"
+      }
+    ]
+  },
+  {
+    "id":"13",
+    "image": "forest",
+    "message": "You hear steps behind you.....",
+    "choices": [
+      {
+        "text": "Go forward",
+        "nextIndex": "8"
+      }
+    ]
+  },
+  {
+    "id":"14",
+    "image": "forestsylva",
+    "message": "Shhhh",
+    "choices": [
+      {
+        "text": "RUN",
+        "nextIndex": "8"
+      },
+      {
+        "text": "Silent....",
+        "nextIndex": "15"
+      }
+    ]
+  },
+  {
+    "id":"15",
+    "image": "forestsylva",
+    "message": "What are you doing here baby?",
+    "choices": [
+      {
+        "text": "I'm just trying to find fairy",
+        "nextIndex": "16"
+      },
+      {
+        "text": "it's not your business",
+        "nextIndex": "16"
+      }
+    ]
+  },
+  {
+    "id":"16",
+    "image": "forestsylva",
+    "message": "ha, brave baby, nice",
+    "choices": [
+      {
+        "text": "What do you want?",
+        "nextIndex": "17"
+      },
+      {
+        "text": "Try to run",
+        "nextIndex": "8"
+      }
+
+    ]
+  },
+  {
+    "id":"17",
+    "image": "forestsylva",
+    "message": "I'm try to escape from the Eyvira the archer",
+    "choices": [
+      {
+        "text": "Who are you?",
+        "nextIndex": "18"
+      },
+      {
+        "text": "Try to run",
+        "nextIndex": "8"
+      }
+
+    ]
+  },
+  {
+    "id":"18",
+    "image": "forestsylva",
+    "message": "I'm Sylva, i'm thief",
+    "choices": [
+      {
+        "text": "So am I leave?",
+        "nextIndex": "19"
+      },
+      {
+        "text": "Try to run",
+        "nextIndex": "19"
+      }
+
+    ]
+  },
+  {
+    "id":"19",
+    "image": "forest",
+    "message": "The hero runaway from that dark forest and see that....  ",
+    "choices": [
+      {
+        "text": "Oh",
+        "nextIndex": "20"
+      }
+    ]
+  },
+  {
+    "id":"20",
+    "image": "bforest",
+    "message": "<sniffing>",
+    "choices": [
+      {
+        "text": "AAAA",
+        "nextIndex": "21"
+      }
+    ]
+  },
+  {
+    "id":"21",
+    "image": "bforest",
+    "message": "<sniffing>",
+    "choices": [
+      {
+        "text": "AAAA",
+        "nextIndex": "22"
+      }
+    ]
+  },
+  {
+  "id":"22",
+  "image": "lucariataimer",
+  "message": "Don't scary of me darling  ",
+  "choices": [
+  {
+    "text": "Da, it's easy to say",
+    "nextIndex": "23"
+  }
+]
+  },
+  {
+    "id":"23",
+    "image": "lucariataimer",
+    "message": "I'm Lucaria and my wolf is a Taimer",
+    "choices": [
+      {
+        "text": "<petting the dog> Good boy",
+        "nextIndex": "24"
+      }
+    ]
+  },
+  {
+    "id":"24",
+    "image": "lucariataimer",
+    "message": "That's it, what u looking for here, i saw you've been running from that dark forest ",
+    "choices": [
+      {
+        "text": "I try to find a fairy for my friend, someone stole it",
+        "nextIndex": "25"
+      }
+    ]
+  },
+  {
+    "id":"25",
+    "image": "lucariataimer",
+    "message": "I can help you with this but in return.....",
+    "choices": [
+      {
+        "text": "??????(+FriendShip)",
+        "nextIndex": "26"
+      }
+    ]
+  },
+  {
+    "id":"26",
+    "image": "lucariataimer",
+    "message": "......I go with you)",
+    "choices": [
+      {
+        "text": "))))). let's go",
+        "nextIndex": "27"
+      }
+    ]
+  },
+  {
+    "id":"27",
+    "image": "bus",
+    "message": "Now 2 friends looking for a fairy of hero's friend",
+    "choices": [
+      {
+        "text": "silent",
+        "nextIndex": "28"
+      }
+    ]
+  },
+  {
+  "id":"28",
+  "image": "bus",
+  "message": "Lucaria - Where we going now?",
+  "choices": [
+  {
+    "text": "To the dark forest again",
+    "nextIndex": "29"
+  },
+  {
+    "text": "Just forward, maybe we could find something there",
+    "nextIndex": "30"
+  }
+]
+  }
+]
